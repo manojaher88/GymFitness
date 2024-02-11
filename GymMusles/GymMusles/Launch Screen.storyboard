@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
+                                <rect key="frame" x="0.0" y="832" width="393" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="28r-wN-B2s">
+                                <rect key="frame" x="138" y="287" width="116" height="116"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="4Q8-p8-TWE"/>
+                                    <constraint firstAttribute="height" constant="116" id="dSR-d5-f6D"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="dev_muscle_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Dhi-Vm-YdC">
+                                <rect key="frame" x="50" y="443" width="293" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="0xe-6U-w0e"/>
+                                    <constraint firstAttribute="width" constant="293" id="BBS-W5-0WV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
+                            <constraint firstItem="Dhi-Vm-YdC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7uF-nT-cnz"/>
+                            <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="20" symbolic="YES" id="SfN-ll-jLj"/>
+                            <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
+                            <constraint firstItem="28r-wN-B2s" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-81" id="aKU-t4-03j"/>
+                            <constraint firstItem="28r-wN-B2s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dwe-Q9-1G3"/>
+                            <constraint firstItem="Dhi-Vm-YdC" firstAttribute="top" secondItem="28r-wN-B2s" secondAttribute="bottom" constant="40" id="lW0-Nn-BvN"/>
+                            <constraint firstItem="Dhi-Vm-YdC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xLX-Ix-mu8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dev_muscle_logo" width="293" height="122"/>
+        <image name="logo" width="117" height="116"/>
+    </resources>
+</document>
